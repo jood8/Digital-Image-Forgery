@@ -10,8 +10,6 @@ st.set_page_config(page_title="Forensic Image Authenticator", layout="wide")
 
 # تحميل الموديل 
 @st.cache_resource
-import os
-import joblib
 
 def load_assets():
     # هذا السطر رح يطبع لنا كل الملفات اللي السيرفر شايفها في المجلد
