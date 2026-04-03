@@ -7,3 +7,4 @@ scikit-learn
 shap
 pillow
 scikit-image
+imbalanced-learn
