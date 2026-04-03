@@ -12,10 +12,7 @@ st.set_page_config(page_title="Forensic Image Authenticator", layout="wide")
 @st.cache_resource
 
 def load_assets():
-    # هذا السطر رح يطبع لنا كل الملفات اللي السيرفر شايفها في المجلد
-    files = os.listdir(".")
-    st.write("📁 الملفات الموجودة في السيرفر حالياً:", files)
-    
+  
     if "model.pkl" in files:
         st.success("✅ الملف موجود! جاري التحميل...")
         try:
