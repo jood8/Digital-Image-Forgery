@@ -5,7 +5,7 @@ import joblib
 import matplotlib.pyplot as plt
 from skimage.feature import local_binary_pattern
 import shap
-
+import os 
 st.set_page_config(page_title="Forensic Image Authenticator", layout="wide")
 
 # تحميل الموديل 
