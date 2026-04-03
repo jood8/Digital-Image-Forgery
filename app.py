@@ -9,20 +9,12 @@ import os
 st.set_page_config(page_title="Forensic Image Authenticator", layout="wide")
 
 # تحميل الموديل 
-@st.cache_resource
-
 def load_assets():
-  
-    if "model.pkl" in files:
-        st.success("✅ الملف موجود! جاري التحميل...")
-        try:
-            data = joblib.load("model.pkl")
-            return data
-        except Exception as e:
-            st.error(f"❌ خطأ أثناء تحميل الموديل: {e}")
-            st.stop()
-    else:
-        st.error("🚨 الملف 'model.pkl' غير موجود في قائمة الملفات أعلاه!")
+    try:
+        data = joblib.load("model.pkl")
+        return data
+    except:
+        st.error("🚨 ملف model.pkl غير موجود! تأكدي من تشغيل كود التدريب أولاً.")
         st.stop()
 
 assets = load_assets()
