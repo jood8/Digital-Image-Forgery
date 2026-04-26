@@ -42,7 +42,7 @@ Clone the repository:
 
 Install dependencies: pip install -r requirements.txt
 
-Run the app: streamlit run app.py
+Run the app , streamlit run app(https://digital-image-forgery-mb2boa3amwyfhbqgzzxvgl.streamlit.app/)
 📺 Demo Video
 A full video demonstration of the system's features and performance can be viewed here: https://drive.google.com/file/d/1eK8KEYUIFkIU9Cd5MjMn8irc3MipWKKR/view?usp=sharing
 
