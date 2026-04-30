@@ -27,8 +27,8 @@ Plaintext
 **📊 Dataset Access**
 Due to GitHub's file size and count limits, the full structured dataset used for training and testing is hosted on Google Drive.
 
-📄 Model/Project File: Download from Google Drive
-📂 Full Dataset Folder: Access Dataset on Google Drive
+📄 Model/Project File: [Download from Google Drive].( https://drive.google.com/file/d/1B2EruL7bXb-GBPwkSKQIMXdHb9FHXaND/view?usp=sharing)
+📂 Full Dataset Folder: [Access Dataset on Google Drive]. (https://drive.google.com/drive/folders/1ZgRJnekUx8hCwCjFSds_qefi23Vdv_mv?usp=sharing)
 Sample Data: A small subset of images is available in the /data_samples folder in this repository for quick reference.
 
 **🛠️ Tech Stack**
