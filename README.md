@@ -1,5 +1,7 @@
 # Digital-Image-Forgery
 **Digital Image Forgery Detection**
+
+
 📌 Project Overview
 This project is an advanced forensic tool developed as a graduation requirement for Computer Engineering (2026). It distinguishes between Original Digital Images and Recaptured Images (photos of screens) using a hybrid feature extraction approach (Texture & Frequency analysis) and an SVM classifier.
 
@@ -17,6 +19,7 @@ Forensic Tools: Integrated LBP and FFT spectrum visualizers.
 Performance: Achieved an accuracy of ~81.82% with a detailed comparison of multiple ML algorithms.
 
 **📂 Project Structure**
+
 Plaintext
 ├── app.py              # Main Streamlit Dashboard
 ├── model.pkl           # Trained SVM Classifier
@@ -24,11 +27,13 @@ Plaintext
 ├── README.md           # Project Documentation
 └── data_samples/       # Representative samples of the dataset (Original/Recaptured)
 
+
+
 **📊 Dataset Access**
 Due to GitHub's file size and count limits, the full structured dataset used for training and testing is hosted on Google Drive.
 
-📄 Model/Project File: [Download from Google Drive].( https://drive.google.com/file/d/1B2EruL7bXb-GBPwkSKQIMXdHb9FHXaND/view?usp=sharing)
-📂 Full Dataset Folder: [Access Dataset on Google Drive]. (https://drive.google.com/drive/folders/1ZgRJnekUx8hCwCjFSds_qefi23Vdv_mv?usp=sharing)
+📄 Model/Project File: https://drive.google.com/file/d/1B2EruL7bXb-GBPwkSKQIMXdHb9FHXaND/view?usp=sharing
+📂 Full Dataset Folder: https://drive.google.com/drive/folders/1ZgRJnekUx8hCwCjFSds_qefi23Vdv_mv?usp=sharing
 Sample Data: A small subset of images is available in the /data_samples folder in this repository for quick reference.
 
 **🛠️ Tech Stack**
